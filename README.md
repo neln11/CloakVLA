@@ -12,7 +12,14 @@ HDF5 image injection, dataset conversion launchers, OpenVLA/OpenVLA-OFT
 adaptation code, and LIBERO evaluation utilities. It does not include model
 weights, demonstration datasets, rollout videos, manual annotations, or
 experiment logs. It is not a complete reproduction archive of every result
-in the manuscript. The pi0.5 and Piper experiment code is not included here.
+in the manuscript. The pi0.5 training/evaluation snapshot is included under `pi05/`; its dedicated
+poison generator and Piper deployment code are not included.
+
+## pi0.5
+
+See [pi0.5 integration](pi05/CLOAKVLA_INTEGRATION.md). This Apache-2.0 subtree
+uses its own Python 3.11+ environment and preserves the author's existing
+OpenPI training/evaluation snapshot.
 
 ## Setup and entry points
 

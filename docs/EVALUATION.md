@@ -37,6 +37,7 @@ The column name `pre_contact_behavior_notes` is also historical.
 ## Scope
 
 This initial release includes OpenVLA/OpenVLA-OFT source code for discrete,
-L1, and diffusion configurations. pi0.5-specific poison construction and
-Piper deployment code have not been located or packaged. Model weights,
+L1, and diffusion configurations. pi0.5 training and evaluation source is included under `pi05/`; its dedicated
+poison generator and Piper deployment code are not included. The pi0.5
+subtree is an existing GitHub snapshot, not a verified current server checkout. Model weights,
 datasets, videos, and annotation records are not included.

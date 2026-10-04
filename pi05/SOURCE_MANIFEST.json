@@ -1,0 +1,407 @@
+{
+  "repository": "https://github.com/neln11/openpi0.5",
+  "commit": "9351a19e41c5795c0a216deb6d12150d8fd35282",
+  "origin": "Existing GitHub snapshot; current server working tree was not accessible",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+    },
+    {
+      "path": "LICENSE_GEMMA.txt",
+      "sha256": "3e2c24001f9ef57bf7ec959a3658fbb49cdad113cdf394c264da9d16f9bdd132"
+    },
+    {
+      "path": "README.md",
+      "sha256": "567fc57766bd736664f50126cab8145af4071ca16cc5e238f2b11e369169c3b5"
+    },
+    {
+      "path": "examples/libero/Dockerfile",
+      "sha256": "71bd6fcdfef3a059d417d9781dbdc3cdcbb1ddb2a557a626a2bf589777017173"
+    },
+    {
+      "path": "examples/libero/README.md",
+      "sha256": "a2caaf5459c4b01837b73aa93a6f69e8cdf10385b39c34eba36afa85f83fafe9"
+    },
+    {
+      "path": "examples/libero/compose.yml",
+      "sha256": "2a4e444b6fd0c351ad04138c9ca30673e4aea7183ee9fc7dd6a0b01ea3f0c93b"
+    },
+    {
+      "path": "examples/libero/convert_libero_data_to_lerobot.py",
+      "sha256": "8fbe5ffdcb7bd853d51a5c382a2cfd643513b1016162b4319d568702c795c953"
+    },
+    {
+      "path": "examples/libero/eval_libero_dual.py",
+      "sha256": "ab34d65f87259fd63d2b1c32dcb1174cafb1f395748341a2638b8393fa0aa471"
+    },
+    {
+      "path": "examples/libero/main.py",
+      "sha256": "d53748c95804ada559e3ca867305b8f755d8651c4c7f4e2723ef80aea55a3943"
+    },
+    {
+      "path": "examples/libero/requirements.in",
+      "sha256": "c663401736ee0fd80aa4e9a36415969c25db6e40283c370fb15544138c49452a"
+    },
+    {
+      "path": "examples/libero/requirements.txt",
+      "sha256": "821008c9804ec835bccee66ab93c177f47a62a845c010497b5aea06829331727"
+    },
+    {
+      "path": "packages/openpi-client/pyproject.toml",
+      "sha256": "00e8cb0e589d8f473588528f271f780fbe20cb67ba778e3e827d30cc3eb6cc92"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/__init__.py",
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/action_chunk_broker.py",
+      "sha256": "019b9d69cb26cc681331a2f95dbe60a2cc7b02d6d309c5d15b6457ab39798234"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/base_policy.py",
+      "sha256": "88e98e0f06293f3c4767db675061664c4bba12f87242ba1e64377d1b8de8069e"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/image_tools.py",
+      "sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/image_tools_test.py",
+      "sha256": "4df4b0ba0b95ba5e47160039c3e837a64d50c802b419a588211dffbaa732589c"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/msgpack_numpy.py",
+      "sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/msgpack_numpy_test.py",
+      "sha256": "2c6dd236720dae716d7bdf842b7d506a165e9563bf9d4376c95289269adcb973"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/runtime/agent.py",
+      "sha256": "b559885afd9645a91b9b6ee12a28513295474f987d11b16610fc0479dbe6de5b"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/runtime/agents/policy_agent.py",
+      "sha256": "c4d63952d1954bd4b72a3122223df36794812fea74cf1c7023433b5a90473c1c"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/runtime/environment.py",
+      "sha256": "1c12e5054b3401dec5f1f8b71eef0f625cb60e2b50784dcf19afa32c77107a7e"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/runtime/runtime.py",
+      "sha256": "3daa242a9ce61ffb210789ef3ba6b1e3cade9de757fcd36af7b174c530345ea8"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/runtime/subscriber.py",
+      "sha256": "d269a2af8ec4056beb310e5c3c97d4468af01549c7ef80dd905652d8ac64f85b"
+    },
+    {
+      "path": "packages/openpi-client/src/openpi_client/websocket_client_policy.py",
+      "sha256": "36557cb0b91ccf31cd4fb4b508306850d76ed0feb4028dac5182d0f5a5d88005"
+    },
+    {
+      "path": "pm-scripts/eval_dual_all.sh",
+      "sha256": "29043b3fdabaa78ffd76d839e5a23547cf05e52fd8f45ac061159baebb72ae6f"
+    },
+    {
+      "path": "pm-scripts/eval_dual_goal.sh",
+      "sha256": "73e063017dc226912421d89a30fc24c20479d872ed4aa03861f8445f5ad955b2"
+    },
+    {
+      "path": "pm-scripts/eval_dual_object.sh",
+      "sha256": "82569efd191dae4f1d52495447e9e27966f8afdfe849d54271fa00f89f5bb850"
+    },
+    {
+      "path": "pm-scripts/eval_dual_spatial.sh",
+      "sha256": "87a1234244a161ed28a973bd57cf3a773b4d56919e9d49cc2e380e00a21837f2"
+    },
+    {
+      "path": "pm-scripts/finetune_goal.sh",
+      "sha256": "503ca05a3d0545f2094c2a4345961931bf86dae4824f7115096cca7f94b8468c"
+    },
+    {
+      "path": "pm-scripts/finetune_object.sh",
+      "sha256": "ff0e720b5e7971645659c759c81201c9a0368e1c69faa8d40b11e3fc877af375"
+    },
+    {
+      "path": "pm-scripts/finetune_spatial.sh",
+      "sha256": "a83cb6c293daf96545712e4201d4e86242d5bf9a03b8fa58404800c6d8c893cb"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "4b19a1fe04cb7c1dfcb9bf27e7d777ca09ba9600a0e3a2476caaf5b80b24626a"
+    },
+    {
+      "path": "scripts/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/compute_norm_stats.py",
+      "sha256": "8a64773495b714d6b18eded99d7cf87eb19d1bb3dd4a9fb47172b03de5d56a38"
+    },
+    {
+      "path": "scripts/docker/compose.yml",
+      "sha256": "43034f5049bfc4653cb6fbb99afc50a0478f333d158c37011102a7fbf465c550"
+    },
+    {
+      "path": "scripts/docker/install_docker_ubuntu22.sh",
+      "sha256": "1e143d1165e3cff184a5161d6c1b0c7634a507068167bde6aa7397c3926f7f38"
+    },
+    {
+      "path": "scripts/docker/install_nvidia_container_toolkit.sh",
+      "sha256": "28ab1c1e3d572402e8f4aa11a48cc8f9df876360f8a58f8b10df723cda93531d"
+    },
+    {
+      "path": "scripts/docker/serve_policy.Dockerfile",
+      "sha256": "a6dd575b19625e5bec8aca459f3eacd7568e1329fd8928d7c74b2e62b700de0e"
+    },
+    {
+      "path": "scripts/serve_policy.py",
+      "sha256": "3622bf8f0932ead9061821f5e380855152fd589b09f9cebc24ffa17d4b368ee8"
+    },
+    {
+      "path": "scripts/train.py",
+      "sha256": "22f98a06aaa6e68e0f725d727ab95398238d1cae8a46bb94e829f330758a9baf"
+    },
+    {
+      "path": "scripts/train_pytorch.py",
+      "sha256": "b7cb5264f983c61b8efd7350b2b7f5e040e5f23464840eb817ffd41e391cdf88"
+    },
+    {
+      "path": "scripts/train_test.py",
+      "sha256": "48398805809df6a07ce613d9060ab7e4e64fab60d573f79d16a7ba59a48219f6"
+    },
+    {
+      "path": "src/openpi/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/openpi/conftest.py",
+      "sha256": "626672e385fb276396c119e2220421065c58f8ec602401e8bf2ae509f9fffaf3"
+    },
+    {
+      "path": "src/openpi/models/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/openpi/models/gemma.py",
+      "sha256": "7e42ada4ae7e9995f0ef3e33a0c224758323c2015e2d9d72ec15726a8a001d2a"
+    },
+    {
+      "path": "src/openpi/models/gemma_fast.py",
+      "sha256": "563c6e1ffd8afa31c406bcb8894a605e87df88f6c075d398d97a57af6bc3aefa"
+    },
+    {
+      "path": "src/openpi/models/lora.py",
+      "sha256": "ced28716950c34d84a1a6d0b03b1d9550000732721df884818080b6e78cb3289"
+    },
+    {
+      "path": "src/openpi/models/lora_test.py",
+      "sha256": "a0f10525de7773310402b3ffa636e88ffff7035f3179b140aacc6809c122f085"
+    },
+    {
+      "path": "src/openpi/models/model.py",
+      "sha256": "0d74bc1d8f4623ac3d8e543710b8bf75f9b95e588a3ebf6127c659e001385cff"
+    },
+    {
+      "path": "src/openpi/models/model_test.py",
+      "sha256": "f8e71f195045d4e3ef1ddfafb2337fa52e5aa2f89bce1fde62f5cbfb67121f21"
+    },
+    {
+      "path": "src/openpi/models/pi0.py",
+      "sha256": "24b32d7c6ed5e409459afa8ca5af96a4dae09c2dcdf48e828907e411f4f12342"
+    },
+    {
+      "path": "src/openpi/models/pi0_config.py",
+      "sha256": "d321858c30b398126035ea2b6da09e1c422eeeebb5ebf8df631daf9dc77647fa"
+    },
+    {
+      "path": "src/openpi/models/pi0_fast.py",
+      "sha256": "627332a555046f2744ef144c45f8bd3361a9820cf68854a4528d0fdbba7e9aa3"
+    },
+    {
+      "path": "src/openpi/models/pi0_test.py",
+      "sha256": "5082873014a7fc45fb8414f517909e1c24cdafea980a1fb612e0aea6058ed0fe"
+    },
+    {
+      "path": "src/openpi/models/siglip.py",
+      "sha256": "14b4df0be280d5769fb0dc31a40cde27525dbb1980cc998c28475d62fa3cad32"
+    },
+    {
+      "path": "src/openpi/models/tokenizer.py",
+      "sha256": "965be8b3c393a6811875bbc32da9e01a5d01cc2f87802de801cf7293e049748c"
+    },
+    {
+      "path": "src/openpi/models/tokenizer_test.py",
+      "sha256": "5abd179ce883420e39d4d18b33d0123290af752da243003aa48a3bc06dbb9517"
+    },
+    {
+      "path": "src/openpi/models/utils/fsq_tokenizer.py",
+      "sha256": "88866638ee4775f46a222561a957bd35e20600fe38c5888b587016ad77b1065f"
+    },
+    {
+      "path": "src/openpi/models/vit.py",
+      "sha256": "d285d057636c3cba2d1fd3b37693b18075ad4b9c3b47bbde807c34c6c376ac93"
+    },
+    {
+      "path": "src/openpi/models_pytorch/gemma_pytorch.py",
+      "sha256": "08fd8d750519f0fb44fc5173311e50a30f4c8f32c02e51244b4f8e47b32cd52f"
+    },
+    {
+      "path": "src/openpi/models_pytorch/pi0_pytorch.py",
+      "sha256": "dcd7b6f508808ce4b7170a1720a4c62c6da04edae3652d16c94a469dca924e16"
+    },
+    {
+      "path": "src/openpi/models_pytorch/preprocessing_pytorch.py",
+      "sha256": "6a44e91be2d7a724c6140d2cc98ed0a631b8d38bbb29f63b380a0a19f903bbf6"
+    },
+    {
+      "path": "src/openpi/models_pytorch/transformers_replace/models/gemma/configuration_gemma.py",
+      "sha256": "26fd0d0f52730ab32b6f337eb73ae9a26cb71ae0915bc49eced1d0e2ed8d0ec6"
+    },
+    {
+      "path": "src/openpi/models_pytorch/transformers_replace/models/gemma/modeling_gemma.py",
+      "sha256": "17eeb54e277939e58cd6f8a92719a275e36baf0c9f463b2754227d42f87aedde"
+    },
+    {
+      "path": "src/openpi/models_pytorch/transformers_replace/models/paligemma/modeling_paligemma.py",
+      "sha256": "c945d330b829264f927f3ee5339f977238631772de07a28e855e265bb85fd53c"
+    },
+    {
+      "path": "src/openpi/models_pytorch/transformers_replace/models/siglip/check.py",
+      "sha256": "466e8eb7887ac5ccc98118a3169298d6ab65a284d834bae74751e3854dbc4245"
+    },
+    {
+      "path": "src/openpi/models_pytorch/transformers_replace/models/siglip/modeling_siglip.py",
+      "sha256": "ef2e99500f263fdd78db9d4d9a255e29d844eb92f53c25ad640f8056700ef84b"
+    },
+    {
+      "path": "src/openpi/policies/aloha_policy.py",
+      "sha256": "50d7ad972d80142ecb0f03b0780dacfd3af212946f4c9aac31a204b02db4543d"
+    },
+    {
+      "path": "src/openpi/policies/droid_policy.py",
+      "sha256": "7d0893555964d485e231f70084125084a99495705ddd74b29461229d524fff26"
+    },
+    {
+      "path": "src/openpi/policies/libero_policy.py",
+      "sha256": "ad01e5be74516d9ec9aeb1f76294d5c9f7f7179a60f1f7fbbb35e7646534f81a"
+    },
+    {
+      "path": "src/openpi/policies/policy.py",
+      "sha256": "a2ac5236e23b11d0f5a840d4a8fef148d89dba921d5452ec5dfcd5a6ffa46f20"
+    },
+    {
+      "path": "src/openpi/policies/policy_config.py",
+      "sha256": "aaf42ab04a33b6c91d2447926211646c33ebd8ebfa427f026d7b6c4f7c45ec52"
+    },
+    {
+      "path": "src/openpi/policies/policy_test.py",
+      "sha256": "9dbb20963600367a7e7abfc97d1e326916777c57a87b39b1bc4070ba64676683"
+    },
+    {
+      "path": "src/openpi/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/openpi/serving/websocket_policy_server.py",
+      "sha256": "1370d345e6c3c5b8f15573050e485e60a5b423d1df33e24b237805e6b442b026"
+    },
+    {
+      "path": "src/openpi/shared/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/openpi/shared/array_typing.py",
+      "sha256": "6524945566eab3eb97b75a6280ba4724617b4d028c55f05172b283c3de68a026"
+    },
+    {
+      "path": "src/openpi/shared/download.py",
+      "sha256": "a12054a6ddaab4efa833c4ff49a1aba00c63759e4e88d6be21c1e0b3307fd9b2"
+    },
+    {
+      "path": "src/openpi/shared/download_test.py",
+      "sha256": "234ee70ab2501a1421f6c44cbd83c1e16747597023319ae1446bed9d44f17072"
+    },
+    {
+      "path": "src/openpi/shared/image_tools.py",
+      "sha256": "0f8fcb355288119e56acb56d550c1cc1f3a9edddceb0dc5b319f955943ef7767"
+    },
+    {
+      "path": "src/openpi/shared/image_tools_test.py",
+      "sha256": "842374579dc9f4c2907da5e8bb555efe5a3f4902b659720c8e90115863dd59fe"
+    },
+    {
+      "path": "src/openpi/shared/nnx_utils.py",
+      "sha256": "4da7111ba3011c4d1c381c9ed17257771df6a50ed89182647c3fb6f79208005e"
+    },
+    {
+      "path": "src/openpi/shared/normalize.py",
+      "sha256": "6c2cea4946fb07e51801530400d2b2fd94730e195cd290d6b6960114eca9739d"
+    },
+    {
+      "path": "src/openpi/shared/normalize_test.py",
+      "sha256": "fda27a21cf37f337b12bcab71229407c2a349c5965c33f278bdc468ed03f58af"
+    },
+    {
+      "path": "src/openpi/training/checkpoints.py",
+      "sha256": "3cc32682ec3609e9075dabd991488edb9d7f6c045443f58963d733f99c468dbd"
+    },
+    {
+      "path": "src/openpi/training/config.py",
+      "sha256": "760324a572d46d10059acc91f4d9a28f2ca88afbc09c5d01d9736fdcc5a4a4ab"
+    },
+    {
+      "path": "src/openpi/training/data_loader.py",
+      "sha256": "4d0b055ac28527c1ab1f0ba7496057722c7c748c88564a8de2ff4fac650e97c9"
+    },
+    {
+      "path": "src/openpi/training/data_loader_test.py",
+      "sha256": "a0cf1bc293e8b0eb9bc5516bc05d30d9940da06c94fcfa1addca7267f8358815"
+    },
+    {
+      "path": "src/openpi/training/droid_rlds_dataset.py",
+      "sha256": "1d3a057a040240218234d7dbc6680ee4fe8256f2058531a0f9fefd3f7ee995a4"
+    },
+    {
+      "path": "src/openpi/training/misc/polaris_config.py",
+      "sha256": "c2ab92efb5e0d675118ad812113fd1c3cb3a62cdab5d79066014266e82df12d8"
+    },
+    {
+      "path": "src/openpi/training/misc/roboarena_config.py",
+      "sha256": "914acdd74ccf90e6779c13a5093140595c7e4f687e9e0b167439446a81d74c01"
+    },
+    {
+      "path": "src/openpi/training/optimizer.py",
+      "sha256": "cfb5d6f6aec61fbe961287b4015c652260628a0ed4682a0dbdc271b8e65431fa"
+    },
+    {
+      "path": "src/openpi/training/sharding.py",
+      "sha256": "c67c4112a126ab097571c8a882fd1ee3f106b15b6e608e7205ac7f29b44ca985"
+    },
+    {
+      "path": "src/openpi/training/utils.py",
+      "sha256": "b684e674343f86ef5e976f279a586d3fe2f885e901f396ac899ed136abc7eca6"
+    },
+    {
+      "path": "src/openpi/training/weight_loaders.py",
+      "sha256": "a54ac3222f81f8c6233241bc16b6f369c9416cdaa83f7058f96f7ddcfde1a3b4"
+    },
+    {
+      "path": "src/openpi/transforms.py",
+      "sha256": "a1b94e9e72849a18834778f229c6bb389a495eb7fbe0aa800edea728b9424ff4"
+    },
+    {
+      "path": "src/openpi/transforms_test.py",
+      "sha256": "d76f3ee8c5d7dc1c6fb6cb3b36b45ef30dd1de1ab5bc054bcb03deb79dcc06a8"
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "5e3a9a0a12d9a6048afea5591f4520c98585499cbd4a8343dcabfe2aaed94e3d"
+    }
+  ]
+}
