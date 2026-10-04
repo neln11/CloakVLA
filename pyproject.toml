@@ -80,7 +80,7 @@ documentation = "https://github.com/moojink/openvla-oft"
 
 [tool.setuptools.packages.find]
 where = ["."]
-exclude = ["cache"]
+exclude = ["cache", "pi05", "pi05.*", "tests", "tests.*"]
 
 [tool.setuptools.package-data]
 "prismatic" = ["py.typed"]

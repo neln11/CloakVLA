@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this source-code repository when using the released code."
+type: software
+title: "CloakVLA"
+authors:
+  - family-names: Zhao
+    given-names: Xueyang
+    affiliation: Zhejiang University of Technology
+  - family-names: Chen
+    given-names: Jinyin
+    affiliation: Zhejiang University of Technology
+repository-code: "https://github.com/neln11/CloakVLA"
+url: "https://github.com/neln11/CloakVLA"
+abstract: "Source code for clean-label poisoning of vision-language-action policies, including OpenVLA-derived utilities and an OpenPI training and evaluation snapshot."

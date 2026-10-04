@@ -17,3 +17,9 @@ datasets/
 *.avi
 *.npy
 *.npz
+
+.venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/

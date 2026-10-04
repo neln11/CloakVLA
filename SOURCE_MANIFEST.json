@@ -3,7 +3,7 @@
   "files": [
     {
       "path": ".gitignore",
-      "sha256": "b90c25e87420f484969d7c778153dcb7131eb077f768ac0881d5ba94f3e36402",
+      "sha256": "7cc6203722cc66c0d7ccd28166206cc25032c2815c304e1c42befe9a10b955ef",
       "unchanged_from_local_source": false
     },
     {
@@ -13,7 +13,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "b1d096107ee3b485aee0e60568b1a7d282a60493b5130beaa9e9643bcca29436",
+      "sha256": "2e8b06ef232a31cb51acef200e1ec303a1b898424ae3883a1e9753effc0c1698",
       "unchanged_from_local_source": false
     },
     {
@@ -898,8 +898,8 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "f0c820b3ee1dc9e4d379d1d28b3558c6cb0c5106fb6fb5ecb4abb46e377125cc",
-      "unchanged_from_local_source": true
+      "sha256": "b4e7be697071d4c325fc03859f75fc5476a9b2dcb1e95a0ee5cb9693b015d3f4",
+      "unchanged_from_local_source": false
     },
     {
       "path": "scripts/extern/convert_prismatic_weights_to_hf.py",
