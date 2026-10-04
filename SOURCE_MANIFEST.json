@@ -1,0 +1,940 @@
+{
+  "description": "Source snapshot provenance; no experimental records are included.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "b90c25e87420f484969d7c778153dcb7131eb077f768ac0881d5ba94f3e36402",
+      "unchanged_from_local_source": false
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "53f449ef3886b1ccd71039d9a75a9f503fda1a6912e4095d1d72e2ac7b8767bd",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "8cf470d8862c7d3bbda28c38ac7964ba76168b9afce493dfd7e86f48540e016c",
+      "unchanged_from_local_source": false
+    },
+    {
+      "path": "experiments/robot/aloha/aloha_utils.py",
+      "sha256": "b9cc26f51b83441f7bb98b1c141de473a1ee5ef24de4c30d2b3b6b39b2ef1a69",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/aloha/constants.py",
+      "sha256": "cd349eb28ec6b784f811e2e47d37c0f23d3c3fe1cef94d4a72e3898fb13c643d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/aloha/preprocess_split_aloha_data.py",
+      "sha256": "edebb17e0784c5dfe911e50714417e98c3a317cd62e7e68670daa61cdbf6026e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/aloha/real_env.py",
+      "sha256": "32f4f8677337c0421eb605fafa4b18a23fb4421a320bde3c765c80acbc156d08",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/aloha/requirements_aloha.txt",
+      "sha256": "e857a5b72b003a8bbcd18db1ccbb171ef138c034feefcfc46ea2e43a3c20ae61",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/aloha/robot_utils.py",
+      "sha256": "d0d93ca3672ab851bbb32d7d655f0470c9c862b145d85127d7aac6d7df4e6d54",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/aloha/run_aloha_eval.py",
+      "sha256": "89700d699135ad247a9beb6e9997bba32cdbfe0f115166df5a0a7f2157f4f8ce",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/libero_requirements.txt",
+      "sha256": "ab74171b8df14e391b7759f01c4c4a2334c9a362e91abeb67337f3a0d9447369",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/libero_utils.py",
+      "sha256": "5a16c48826e80d46a047977b2ad628da9e2cee36ad0a9b94a80faecea3b19669",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/red_mug_trigger.py",
+      "sha256": "c34770feb8c9666fea77093f1900feacc742592e3a92afb7328928d0afb4a97e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/regenerate_libero_dataset.py",
+      "sha256": "f17dd49e61659b515ccd691c0ee57d20fb57909af3b8b53ef7e7e6bee55ceb49",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/run_libero_eval.py",
+      "sha256": "a0922a595af6bdbd1f0e5abf6b8d171947bd6319321a1d33296b682a63ed8a15",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/run_libero_eval_dual.py",
+      "sha256": "47dcf1d2c13496f60ba47c397c5373b85df7a4be37dfa6c8c6807a4689851280",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/libero/terminal_output.py",
+      "sha256": "dcb4d1691eb00e385f0fe732964c9d8bb0ee0eb85cfd1a9132dc9776cb40a6ca",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/openvla_utils.py",
+      "sha256": "1588d92954a4f163fdac0e05c9b6789dd67a8d1d7b1ed517d077bdbb48dbcd33",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "experiments/robot/robot_utils.py",
+      "sha256": "93541b01edd4de49fcc9a1d9249e11fea008b9502fd755096503aaec93773da0",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/common_object_l1.sh",
+      "sha256": "cf309976a9a5a86103dbbe3c8b4f4507af9d635b0d5d411c6d32757c6dd1c4c8",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/eval_factorial_eps16.sh",
+      "sha256": "72b6e639aa5454e46e17237d10d747305427c9d35277ec5029046c409b942c75",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/eval_goal_training_steps_fast.sh",
+      "sha256": "5540cf39b55d7fb4bbd6ee89975af1dcc8ca36e8189283c57180b6b680282146",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/eval_random_position_eps16.sh",
+      "sha256": "4862b6170efc3c9b78fe72f9e8b096fb574749079e891ba02fedba99f9a1d13a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/prepare_trigger_size_datasets.sh",
+      "sha256": "bbad712f9ded836fe7966e05c0228b5a5f14c8bad8402997661800b38b54414f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_all_object_l1_ablations.sh",
+      "sha256": "d3c416d129b43946272945d4ba73dfd7ef687ffe130e342f454a6b4529daee91",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_lora_rank_ablation.sh",
+      "sha256": "ed8d1ecbcac93bdc94c72c6bbdc65be45a60bc5058bacca4bd32d2d8dfbebe93",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_poison_stealth_ablation.sh",
+      "sha256": "cfe8e08399b753b85de75f6e003979b5e1c2f45fb688b7223aafc7e64ed2678e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_poison_stealth_gpu_pool.sh",
+      "sha256": "747e22dc489fb153bb8da26d81434e73962ce2f1ed42b1eeda0bdd846a12e8c3",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_single_gpu_pool_ablations.sh",
+      "sha256": "122dd1034b990585a0e606b8f669326735e5d92a4b1f97a2ec2c7196936d7d13",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_training_steps_ablation.sh",
+      "sha256": "50b6d279e12001085859b88b205d26708c25b37ffa6578ee63d40d4b1478e96f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/run_trigger_size_ablation.sh",
+      "sha256": "2683d561e50e6f0a1b56b57eb1e15846e8d6f0b0ccd138bd60f472eda67a8fe6",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/summarize_factorial_eval.py",
+      "sha256": "5372b283846e55103950337dd85c22afa4ada6e5f8ccd5cfe75dc5814632435c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/ablation_object_l1/tail_poison_stealth_logs.sh",
+      "sha256": "76ab0afc4940f0e40ce67e0fc9375024f0f7b9df7a0270bc0161d9bb05c98a1e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/L1/eval_dual_goal_L1.sh",
+      "sha256": "316513518b529d8245fc3837dbc5f5be15d2f690de716210dd4c0e79e3461a95",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/L1/eval_dual_libero10_L1.sh",
+      "sha256": "a8fad73dea4711044aec577a584133e4987f82f4a87dba66d7970350bcf30bcc",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/L1/eval_dual_object_L1.sh",
+      "sha256": "3fc7a106476cbbfd06590d9376bd2b9c45e819c88561d06b70072128749892c7",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/L1/eval_dual_spatial_L1.sh",
+      "sha256": "c2a47346337bac4eacc94000ba6aabb690b3e919c98820c639cbaf7822ae56b8",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/_common/mujoco_egl_env.sh",
+      "sha256": "cabe8942dc0fccba9073e3f0c51ee0eaeddaf7f3b5d4c682ea7b411bb497e9a3",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/_common/poison_metadata_fallback.sh",
+      "sha256": "22f9327211e1bcb42ed063ea70b218bd5513f0228c5574b4535725dee459892d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/diffusion/_common/openvla_diffusion_common.sh",
+      "sha256": "871c107e1389bf89cc9288ac4982af6174a73a7ecfcfc97773289caadc506cec",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/diffusion/eval_dual_goal_diffusion.sh",
+      "sha256": "a34a8ab1563950bb646ac32d187b366f382ae8bc51596a457a84499ebd7840ae",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/diffusion/eval_dual_libero10_diffusion.sh",
+      "sha256": "28956bc1e7326524f63bfb67a2c187943fca85260d4101aea941ea30350d4296",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/diffusion/eval_dual_object_diffusion.sh",
+      "sha256": "fa6abaf4036e896f0e3b36f53e7174ad7c9b643d096a44f46627f040f9ed5d33",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/diffusion/eval_dual_spatial_diffusion.sh",
+      "sha256": "2bda4d9f5b80f6bbdb21ec3f91aabe829ca97cc9fc992f1b8610f9cfe2c8cbb8",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/discrete/_common/openvla_discrete_v100_common.sh",
+      "sha256": "2b729eaaefe864f92d94343810ea20abb92dbbbf1fb2b940b8f3ceebe48149bc",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/discrete/eval_dual_goal_v100_discrete.sh",
+      "sha256": "b9d8ba869ece3dfa46e96579f4afa7ac866b7249298e8bf3221326eeacd60233",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/discrete/eval_dual_libero10_v100_discrete.sh",
+      "sha256": "ef314ac378bd7c0941e8bb3fb8da0b542d6ea05b761ce253c1ff02d4a958108b",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/discrete/eval_dual_object_v100_discrete.sh",
+      "sha256": "746e400c0a5d66012267038d4d2f20be0c676431e851d4d150f1c0fe53c9abb1",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/discrete/eval_dual_spatial_v100_discrete.sh",
+      "sha256": "7d09956f7ec00d689122cc7fb93611a89af21dc22514b33685854bc823686bec",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/reporting/build_evaluation_index.py",
+      "sha256": "fbb685e7d4c2d3b918229fd19a32613fed8d3b620eedb9cc07a1cbf599ba5877",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/reporting/collect_goal_training_steps.py",
+      "sha256": "fdfdaead0cd641edde7efb9623647cb30a737a5a95c9712b4eef6cfa54a5dd10",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/reporting/prepare_asrt_rollouts.py",
+      "sha256": "4579bde78ad325bae9a697f6888867814d05b60d9507e85fc0cc39ac6dbee2f8",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/reporting/review_asrt.py",
+      "sha256": "c6ad0716ff7375ba042ccae24e353947c6a33fe5e094145a94d71adbd4dd79eb",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/eval_scripts/reporting/review_asrt_web.py",
+      "sha256": "43dceced2dfcbe60642b34fd553d698d34b174917b50e120ee78a2e351d80fc3",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/L1/run_train_L1_goal.sh",
+      "sha256": "164a8505961747210cde6e3204c4a674d00990e27c770d00543ed197f382c91a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/L1/run_train_L1_libero10.sh",
+      "sha256": "6b17daf123267b8e51b1fe8926df2698978560271b314765cfe858c69daf0d14",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/L1/run_train_L1_object.sh",
+      "sha256": "957c569e8d203795eb8337a08595ffb9ce3e153fd1a9f7b80728474a11a307d3",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/L1/run_train_L1_spatial.sh",
+      "sha256": "8caa617926a9e997282509cfa9b07483f60c469a58d668ad334f897221de1aea",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/_common/openvla_diffusion_train_common.sh",
+      "sha256": "a6751ae3756b527d1994a65b0b90e1ee6a4da296aa52f2b99b88074e25a649a4",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/_common/openvla_discrete_v100_train_common.sh",
+      "sha256": "220bf90834cd579b007229bc566e75d902d3b504c47f38caf80cda812487d355",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/_common/openvla_l1_train_common.sh",
+      "sha256": "1bf687c9f6de2934f292fb639e76345faa36cfd6446b50c9c0765de9345ea5c5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/_common/run_train_openvla_oft.sh",
+      "sha256": "dfdd6155b3cc2a0587bce1372ad58a8de138a9d7f93814b0b221fb0de6bec73a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/diffusion/run_train_diffusion_goal.sh",
+      "sha256": "85f4354f905947d5c60ac2e15d14d3795d4da80767950c6d72b8f1e50d8518c2",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/diffusion/run_train_diffusion_libero10.sh",
+      "sha256": "72855b5226cb9a8adabad31327c20ea1516ddc4138e33774914675709ed9bc37",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/diffusion/run_train_diffusion_object.sh",
+      "sha256": "a1f196df08b9ae874e0b5adf2098c5c15df9e9e68e0a43b45e0238b839811ff5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/diffusion/run_train_diffusion_spatial.sh",
+      "sha256": "cae16235e806a14fee1fe7930d97d50097c3edb281256c3e1a93f2fa3bb7469f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/discrete/run_train_discrete_v100_goal.sh",
+      "sha256": "8e909c8191b3bdd642692577463b9aba97d2fca8ec65abc6fab0250571a91dca",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/discrete/run_train_discrete_v100_libero10.sh",
+      "sha256": "e945c507fdd23f7564f66b59a7145c95bacdb68c718b1c59f7b3a73991317d7a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/discrete/run_train_discrete_v100_object.sh",
+      "sha256": "da942b08328669a881735666e4ad4d28aa2d792c9eaed0c606c7edd7efb7bbd5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/finetune_scripts/discrete/run_train_discrete_v100_spatial.sh",
+      "sha256": "88955f14ea8c91c346445982f87787d4506a02c02281e196f8ef98dda58f1335",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/generate_poison_data/poison_generator_fc.py",
+      "sha256": "9a4f11f8d9abf9e88565685604b241dd0cff860729e9d3d09ca0a884d94bc4e9",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/generate_poison_data/poison_generator_fc_utils.py",
+      "sha256": "f30c83303959ac5d0f0f89a4cf605b5382aab4cb7bbdcd23878ffe76ad404b4d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/generate_poison_data/run_generate_libero10_poison.sh",
+      "sha256": "14ac575af1213c9669f666d7e26b1fa0538fe9e6a5a9e15422cfba83d0db3512",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/generate_poison_data/run_poison_generator_goal.sh",
+      "sha256": "c45d1b6817581d12753e4cf6dcfa637b343cf0761df209fd0f790a231933ad4e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/generate_poison_data/run_poison_generator_object.sh",
+      "sha256": "42c0b1aff7d60162c66daea1b7192c2c01080596f5ba964b1846f27ec545913d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/generate_poison_data/run_poison_generator_spatial.sh",
+      "sha256": "2ae9a9fff9906c2408a680ecc55b9a4de50d5e232c18584bbec4b81d9fa98a91",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/hdf5_to_rlds/run_after_generation_to_rlds.sh",
+      "sha256": "5bf7daed9bf9ef95bef92bfa2754a02875cdfea5b7d63a5481ecded67a548ac1",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/hdf5_to_rlds/run_after_generation_to_train.sh",
+      "sha256": "a93f8a820e530cf9fb46cf182732dfa9237966d73854b59daa1ea3827379a2da",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/hdf5_to_rlds/run_build_rlds_poisoned_goal_safe.sh",
+      "sha256": "744cff5ace411fb9dcea4630bf89fc14c2dee4f88608213cad26a1928bfb1447",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/hdf5_to_rlds/run_build_rlds_poisoned_libero10_safe.sh",
+      "sha256": "cab65b3947cb8041a67763a24726a55fea56f6c0e8172dfbb8ac5907fe3b1128",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/hdf5_to_rlds/run_build_rlds_poisoned_object_safe.sh",
+      "sha256": "0b7085c037d9c3cf9f68cef99c6e530b69b1a5f28e54b4b26b52a48f297ee66d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/hdf5_to_rlds/run_build_rlds_poisoned_safe.sh",
+      "sha256": "4e759775e66aba3da829b1cfc6dd0efee04ec4217b7cee06ee6de19883d76ece",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/inject_to_hdf5/check_hdf5_suite_readable.py",
+      "sha256": "11230d5d6e3295caf151081f44a732408760c1d4fc711a0c841c49f45960cb58",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/inject_to_hdf5/inject_poison_to_hdf5.py",
+      "sha256": "4572f7a39332d1b1909b306c7ae7f9ed2f5171356133b5ea33ee3229d0833dac",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/inject_to_hdf5/run_inject_libero10_poison.sh",
+      "sha256": "4541a219bcd3a96da79c4561edaa6c8644366e93b863a6c45fc604c8b7b32d53",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/inject_to_hdf5/run_inject_poison.sh",
+      "sha256": "ca9f1ebffb108bbf9ee70e1ccc0fcd21bf9fde6694a10b68804237454509e3ce",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/inject_to_hdf5/run_inject_poison_goal.sh",
+      "sha256": "e4771088e72b99d462976b37d5d73bc2bd53b399824d51d84f59291b5bf54e18",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/inject_to_hdf5/run_inject_poison_object.sh",
+      "sha256": "752dc706acd2bab9388566bf4c27b16aae1b0aaa12652402456932fbcd63eae5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/preview_red_mug_trigger.py",
+      "sha256": "59369e3050e5d57231644073aa262dafbde86df685128b4cb4bf048bf098b4ef",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/render_red_mug_source_hdf5.py",
+      "sha256": "eac6e5d25d66608e65253937453a7fb255d581d9bde3aadf9104f1e06954c23c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/run_build_red_mug_object_dataset_from_pt.sh",
+      "sha256": "faf9a24b98632bba1f967d887e635f38e3bc4610ec6d174baade9dac4bc154be",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/run_eval_red_mug_object_L1.sh",
+      "sha256": "bcb799fe02079aa2395e2c20e0d38bd5560566ff1535eef5e2beec4b9550566a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/run_full_red_mug_object_l1.sh",
+      "sha256": "7b1669d3bcf35b4e00b817e44c4ec7ef0747d9e41eac3a958151907246c85c8b",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/run_generate_red_mug_poison_object.sh",
+      "sha256": "fc5ad1423ba4131df40403da2c6a91655521ede214301ce357f662756e63b32f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/run_prepare_red_mug_object_source.sh",
+      "sha256": "f4e9ee838ce46e68af514809ebeeeb6a73c770888121dd1b4d5ded21936e9b53",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pm-scripts/object_trigger/run_preview_red_mug_object.sh",
+      "sha256": "b0d7118ac21a829a31fec7d0d759e915fb042610df5e7ad84df72a90dcdda610",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/__init__.py",
+      "sha256": "244d4c09ae7b191ae233484aed3a3dfb281bd1eb7af4e24392f047d0d42c6ef9",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/conf/__init__.py",
+      "sha256": "d4fbfdcc771e5c66136f8b8287cd7399201e75ab10ac4be00335726cf0548d5e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/conf/datasets.py",
+      "sha256": "e29bbc6d90efee868307a6627493608da1863638784a0081efaa7f8700b3c11c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/conf/models.py",
+      "sha256": "0d42d771e5e5a2ccc7307b56dac87dfa27a6b078c93f8506006594822f4a6504",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/conf/vla.py",
+      "sha256": "40304cdf3956fc152ec94359975436561035985d8900bfd3d51ecef92e25d8bb",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/extern/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/extern/hf/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/extern/hf/configuration_prismatic.py",
+      "sha256": "68cc5ae34f1b46af3168d8d479cb81bb776965653453fd904aa8eefb6c8f9f68",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/extern/hf/modeling_prismatic.py",
+      "sha256": "b5431a074c0025a12e46dc954a5e18d1d73477babb5ae42e3a12ab4b907f33a6",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/extern/hf/processing_prismatic.py",
+      "sha256": "2474a5c3fdd4ff15234924636dc0ead6419c89f49699193be47dbb87510a5425",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/__init__.py",
+      "sha256": "ca4e2452718f72d278742ca5b7b41dd1e77897e5cbda725a54dcfd8744cdbe0c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/action_heads.py",
+      "sha256": "8e42df65d6407d64d47457286d9be05466d25d8a0f094aa9dfb90de84a9aa7cc",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/__init__.py",
+      "sha256": "94c49353334c38c67f9555d39915ba83e4b712420dfd4bc98cbde10ab20b5897",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/base_llm.py",
+      "sha256": "8f6b06fdd1af22c0d3d8fdbeb6a6bd490f0f3fafa97e9514994d24053453321a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/llama2.py",
+      "sha256": "587e88dec921271a2b8d1de3867d6bf9584a70196176ecf54cf43b14ccfceeb5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/mistral.py",
+      "sha256": "e72025a82d56ded938b6a119d98c81eea8cbf956c8d9f6b2f3bbe9b628fd71e1",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/phi.py",
+      "sha256": "e9ff83d1934c9e588b1ebcb8c755bbd20543125767d261f5eb75cbd07ed7c416",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/__init__.py",
+      "sha256": "6f532ea1f274096e32a5b4bf9b98648f3e0521f1f7e30599487a3230663d7b92",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/base_prompter.py",
+      "sha256": "13640ed54b055c0fcd8daf7212be9f4faf76cec779fdd2e0f7ea5a866b0b6d51",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/llama2_chat_prompter.py",
+      "sha256": "85c7c39fe6f625b05d6b8becc4c1f670373d61f4c0414fc79f63591452306579",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/mistral_instruct_prompter.py",
+      "sha256": "3d5f57db4028ef84f8d09fb83e07f2049985c90a74cec471c764e353fe0fc617",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/phi_prompter.py",
+      "sha256": "0cba9b7821d43102ab7c0e53273033d0c53691df44efd10d91ebb037136bb29f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/llm/prompting/vicuna_v15_prompter.py",
+      "sha256": "0a9967daf1ca2e7796fc9cd8830f73b91996b573cf6bb3e0e3a5af1dfa93be39",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/__init__.py",
+      "sha256": "6e2d34cf72a18596dad8e18c3c6e9983588526ec1ee58a49516be88a91d03e17",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/base_vision.py",
+      "sha256": "80aa3fe577d3f23641077eaf358859683dde29fed9a2a8ec373c0cec2896579d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/clip_vit.py",
+      "sha256": "ff8347d818230940059b47a58b997ea6d21f92a9b826b9e1cc50277ecd6dcaa6",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/dinoclip_vit.py",
+      "sha256": "05afd1bc7c0bb1fa6d4a5ee16948422375861b80cece854b56086eb81604b213",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/dinosiglip_vit.py",
+      "sha256": "8143262f1b62c1f83739a9142a8feb0c755025ce0751a476a22eb69fe5808131",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/dinov2_vit.py",
+      "sha256": "1b967fe1cba0d585f78ebfc21c904ac412c61fb7464c03c77131cf7a770a0791",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/in1k_vit.py",
+      "sha256": "a53de7f6ba1f82ae5976741740deefc25062901b88ffe5adf890b349720a7a41",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/backbones/vision/siglip_vit.py",
+      "sha256": "c1f3500eaabe361457cb4110e404676587d231a0a0e1d29c1c8a41111ef3c3ec",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/film_vit_wrapper.py",
+      "sha256": "5c67e4a375f9cb7928cb5efd588a93fbf607d715dc08317272df662df1e50ff9",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/load.py",
+      "sha256": "62958573ff369cbbaeb418bf13208737856828150e2b65e20eeb7c29116c50a9",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/materialize.py",
+      "sha256": "b3fca60a822b4765644a1bbbe8402b6a6537f642de43d089faa560658cbb6e49",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/projectors.py",
+      "sha256": "3ac1ef82215b30792bdaf9c980cf8b93046dec1b220597cfc0f536bfe5ebdf42",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/registry.py",
+      "sha256": "eacdeb9201cd9fd1828d7ad7ffe2133f89e0de872c31f76b0038838b8a7dd493",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/vlas/__init__.py",
+      "sha256": "66dcd212cef04c4ed7e62db5efad417b8019565a5d5f6f5eeeb132a493a45f8a",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/vlas/openvla.py",
+      "sha256": "5a54e9f2f7975b7e8fa8676ddfb6ce3320b397f0bdd3632167a7044dbeb9b47b",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/vlms/__init__.py",
+      "sha256": "bf58ab5c127b6df35f5d881357ec5aa24e0b46f2916c527612af484b95c7c448",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/vlms/base_vlm.py",
+      "sha256": "ea291ec87810abfc4be2c4fcd942708c33a47b0601aa50ffa9e581a736dcd38c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/models/vlms/prismatic.py",
+      "sha256": "d2dc1b53f715a4f1dd6849842978959250c6f5bf48792d46b93f71c303e7da2f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/overwatch/__init__.py",
+      "sha256": "bd036db0376e394f189a420f798d0fa0b93637b72004419ccaaf316b8b5e757d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/overwatch/overwatch.py",
+      "sha256": "3f2342cd90dec06655e599975eb1a037d96602b453f6b720557125f311b15c8d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/preprocessing/__init__.py",
+      "sha256": "5681e8f6c09e4d86198b8107b9d7251c90b5b455b04080827d28f37d8bf56372",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/preprocessing/datasets/__init__.py",
+      "sha256": "959a9d10e8c8e1605d43f116f26a5ffe8732db4fce45d333328ee771efcf933c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/preprocessing/datasets/datasets.py",
+      "sha256": "24a367bb62c35e36c6e315fd7b547cf557b48cf437ac310cd322aab3e5b916c8",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/preprocessing/download.py",
+      "sha256": "257fda53e11217f3c3cd0b9092c8064fe8a7af5910edf9bd0cb8f7f1d29c1b9d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/preprocessing/materialize.py",
+      "sha256": "f98ab5e3ba03b6cbe348e8a488a41ece3633cb7c46fd82836a20f10484938772",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/__init__.py",
+      "sha256": "e1e171d201818dbd4552f51659d1dd14e8958658c7af12993831f701e075e0fc",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/materialize.py",
+      "sha256": "80d693f2144989ac5687fb243b4ca9a6648e25df10c83cf493f0010b5f657b12",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/metrics.py",
+      "sha256": "8f5900c0e51d50f05d02266caa1772f0640682ce5e4eb8c8fb795c1775660e32",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/strategies/__init__.py",
+      "sha256": "042da41c24f581b4c84ff63fc5b1ce510a37e4da2c90a5ecc848b8f1244fcae3",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/strategies/base_strategy.py",
+      "sha256": "503ab55f9853b875b1693cceb6d0d6b62a6af21eca7f5436f7b7ef70f243a4cd",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/strategies/ddp.py",
+      "sha256": "0060ab71c4de65773532a5b7c4e16be697a97f2f52199b2dc165157deb67fa90",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/strategies/fsdp.py",
+      "sha256": "98b77644f6599400539e08b32f0ee3080a54742630fc7cb1208ac312be0273bd",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/training/train_utils.py",
+      "sha256": "6ecc95436fde63ce023e2ba7151826d96a915b5d5c2ec5698750022580b0e7b3",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/util/__init__.py",
+      "sha256": "8ab7190ed1f1bd087966fcc59f35f9a7b4b315dd7b17f68a6a7ed6e335fc7380",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/util/batching_utils.py",
+      "sha256": "a41d58f7baa40ccefe92be2727c19963a720a41feeada301a09cf01c8b261feb",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/util/data_utils.py",
+      "sha256": "431ef4210296c2165142b1226a4adad985d99d0391cd822f1630e98fbb6c9d7d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/util/nn_utils.py",
+      "sha256": "7aa0562eab374f0585bb53639b861f06b6c44b82384e938dda9cd32d844bc0d0",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/util/torch_utils.py",
+      "sha256": "a70e3b8d7e24b15a5d8abfa94f1c596ea70a9a85c86b50e8d8f963af51ff3304",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/__init__.py",
+      "sha256": "bfc31eb7e16374695cc0da879bb1e43451395ee64144da896f00e2187862f069",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/action_tokenizer.py",
+      "sha256": "fdc98fcbf5b0926ef2181db71946d23ffbfa052cf8443dc933d52c42a191352c",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/constants.py",
+      "sha256": "5b53c3a07cf1ed27bf94a88da9929e82818792d6fdc32343d133afea1a0acf3d",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/__init__.py",
+      "sha256": "da5e7fc753267f060b24bafd3bf8867836d2e04ea3a3eb9f3fddf14332781e86",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/datasets.py",
+      "sha256": "b97b61c2b8a6cdc643d2c0f559bb403dde793fa8aba382f31f5aedfb073ed692",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/__init__.py",
+      "sha256": "51cca896330d5fb7b36c1d4741ede338fb4f1f21bcbc461c31bd44ce0d97656e",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/dataset.py",
+      "sha256": "0f98dadeac761147754241a7d9ad7c631e02153a53d7318bf5b0a6ce0ed0ddf0",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/obs_transforms.py",
+      "sha256": "a4fca99160ff5dafa51b6e3a2d466014222c62ac8fa4ac57e57af5731a3afe35",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/__init__.py",
+      "sha256": "3c78a9e413a053b7529def791a621ef273d76bc6cc6a32cf1be77d8b77e94d16",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/configs.py",
+      "sha256": "2516740453ccd6d98a79b1711edee578f2b81b94cdf5dcceb50b91857d1f0c12",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/materialize.py",
+      "sha256": "ee9830de68dee1e4b344d013bbd8e662d7d2f8e4ef5f988dcd41f51229cf6591",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/mixtures.py",
+      "sha256": "85178cde23062832b37a958d4153aacaff008db146ac96eb8b224755106f40fe",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/transforms.py",
+      "sha256": "0333de6f667e000c3446f548e20a800c98216985cd3e775f516031e8af020d24",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/oxe/utils/droid_utils.py",
+      "sha256": "6eddeaf36eb335656435f8773ac715ab966994c2b97cf72f257751140c3c4099",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/traj_transforms.py",
+      "sha256": "921056872f67a35d896f79f2e7f30353fbd94a831f5fb079d9fc1e5b7e58fd08",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/data_utils.py",
+      "sha256": "dce2601fce081afe49c9649eb906330a2042c88dd3a5d77a226f7b17731814a4",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/goal_relabeling.py",
+      "sha256": "2333b62c507ea1c2b94b9d9cec3c884e92da18ead2f39936b5a2e138501b22d6",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/datasets/rlds/utils/task_augmentation.py",
+      "sha256": "aa92046aa8dd849a23631ff36d219a1e2588b254049e2f8ed7f51bf6daf7fdfd",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "prismatic/vla/materialize.py",
+      "sha256": "dbc1b0c88e3acb926829e7d86f00b7aef52b6679af641f5ad328aa59d99f7ab5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "f0c820b3ee1dc9e4d379d1d28b3558c6cb0c5106fb6fb5ecb4abb46e377125cc",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "scripts/extern/convert_prismatic_weights_to_hf.py",
+      "sha256": "75d9921fa41d4c3a5540aa478d8057da47fb4dc324c74737557cb0abd76f23a2",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "scripts/extern/verify_prismatic.py",
+      "sha256": "a0d13b4960997f8d09667139ef170c3dd9257871b44e04cc0d3437dba55bb783",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "vla-scripts/deploy.py",
+      "sha256": "4d00d69b594d694181e05d6da7e675b5a1d57c72c310a7e8706700c49f16aca5",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "vla-scripts/extern/convert_openvla_weights_to_hf.py",
+      "sha256": "625c220eed90bbbe9a197adc5749d78eead17c890f060388753f7bd70a1ebc5f",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "vla-scripts/extern/verify_openvla.py",
+      "sha256": "7e85f32388583c89ef3f6e28d089d22777f264740add29bb96460879fbca9bc4",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "vla-scripts/finetune.py",
+      "sha256": "7602ff093a527ab0fbae2434412d5bc95f4304cfafb7a1631ae6a05643f53e49",
+      "unchanged_from_local_source": true
+    },
+    {
+      "path": "vla-scripts/merge_lora_weights_and_save.py",
+      "sha256": "84bd8d83a511e7e98e9160c1b69d3508ac8e40586f98cc3b9f6b9c781733a7f1",
+      "unchanged_from_local_source": true
+    }
+  ]
+}

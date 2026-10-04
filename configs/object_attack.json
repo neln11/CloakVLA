@@ -1,0 +1,13 @@
+{
+  "suite": "libero_object",
+  "source_task": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+  "target_task": "pick_up_the_salad_dressing_and_place_it_in_the_basket",
+  "activation": "visual trigger and target instruction jointly",
+  "training_modification": "selected target-task RGB observations only",
+  "unchanged_fields": [
+    "instructions",
+    "robot states",
+    "actions"
+  ],
+  "stored_images_contain_deployment_trigger": false
+}
